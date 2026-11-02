@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f8fb" />
+    <title>המחסן החכם — מסע ההזמנה בעידן הבינה המלאכותית</title>
+  </head>
+  <body>
+    <div class="presentation">
+      <header class="topbar">
+        <a class="brand" href="#slide-1" aria-label="חזרה לשקופית הראשונה"><span class="brand-mark" aria-hidden="true">▦</span> המחסן החכם</a>
+        <span class="course">ניהול וטכנולוגיה · קורס בינה מלאכותית יוצרת</span>
+        <button id="fullscreen" class="quiet">⛶ <span>מסך מלא</span></button>
+      </header>
+      <main id="slides" aria-label="שקופיות המצגת"></main>
+      <footer class="navigation">
+        <div class="nav-buttons"><button id="previous">→ הקודמת</button><button id="next" class="primary">הבאה ←</button></div>
+        <div class="progress-area"><span id="counter" dir="ltr" aria-label="מספר שקופית"></span><div id="dots" class="dots" aria-label="בחירת שקופית"></div></div>
+        <span class="keyboard-hint">מקש ימינה: הבאה · שמאלה: הקודמת</span>
+      </footer>
+      <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+      <p id="notice" class="notice" role="status" hidden></p>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
